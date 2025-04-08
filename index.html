@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Web</title>
+  <link rel="stylesheet" href="style.css" type="text/css">  
+</head>
+
+<body>
+
+    <div id="cuerpo">
+    <header id="cabecera"><img class= "logo" src="Imagenes/html5-logo-html-icons-download-14.png"><h1>Este es el titulo de cabecera</h1></header>
+    <nav id="menu">
+      <a href="#" class="nav-enlace">Inicio</a>
+      <a href="#" class="nav-enlace">Servicios</a>
+      <a href="#" class="nav-enlace">Redes</a>
+      <a href="#" class="nav-enlace">Contactos</a>
+
+    </nav><!--<h4>Este es el espacio del menu de navegacion</h4></nav> este es el enu <principal-->
+    <section id="seccion">
+    <article class="Articulo"><h2>¿Que es HTML?</h2><p>HTML es un <span class="sub">lenguaje de marcado</span> que utiliza etiquetas para estructurar el contenido de una página web, como texto, imágenes, enlaces y otros elementos. <br>
+      ¿Cómo funciona? <br>
+      Las etiquetas HTML, como <p> para un párrafo o <img> para una imagen, indican a los navegadores web cómo mostrar el contenido. </p></article>
+    <article class="Articulo"><h2>¿Que es CSS?</h2><p> CSS <span class="super">(Cascading Style Sheets)</span> <p>es un lenguaje de programación que se utiliza para definir el estilo de las páginas web. Se le conoce como "Hojas de Estilo en Cascada" porque las características se aplican de arriba abajo. </p></article>
+
+    <article class="Articulo"><h2>¿que es JavaScript?</h2><p>JavaScript (JS) Es un <span class="lejos">lenguaje de programación de alto nivel, interpretado y orientado a objetos, </span>ampliamente utilizado para crear páginas web interactivas y dinámicas, así como aplicaciones web y de escritorio. </p></article>
+    
+    </section>
+    <aside id="lateral">
+      <form name="Formulario">
+        <h2>Formulario Web</h2>
+        <table>
+          <tr><td>Nombre</td><td><input type="text" name="txtNombre"Require/></td></tr>
+          <tr><td>Correo</td><td><input type="Email" name="MiEmail" placeholder="Ingrese Email"/></td></tr>
+          <tr><td>Estrato</td><td><input type="number" name="numEst" min="1" max="6" step="1"/></td></tr>
+          <tr><td>Fecha:</td><td><input type="date" name="Fecha" Require/></td></tr>
+          <tr><td><input type="submit" name="btnEnviar" value="Enviar"/></td><td>
+            </tr>
+        
+        </table>
+      </form>
+    </aside>
+    <footer><h2>Ve al siguiente link, si deseas mas informacion</h2>
+      <a href="https://developer.mozilla.org/es/docs/Learn_web_development/Getting_started/Your_first_website/Creating_the_content" class="nav-enlace">Vinculo</a>
+    </footer>
+</body>
+</html>
